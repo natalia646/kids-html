@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Alata&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Alata&family=Bodoni+Moda:ital@1&family=Seymour+One&display=swap');
 h1{
 font-family: 'Seymour One', sans-serif;
 color:purple;
@@ -8,6 +8,9 @@ font-family: 'Alata', sans-serif;
 }
 h3{
 font-family: 'Akaya Kanadaka', cursive;
+}
+:root{ 
+    font-family: 'Bodoni Moda', serif;
 }
 img{
     width: 300px;
