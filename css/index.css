@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Alata&family=Seymour+One&display=swap');
+h1{
+font-family: 'Seymour One', sans-serif;
+color:purple;
+}
+h2{
+font-family: 'Alata', sans-serif;
+}
+h3{
+font-family: 'Akaya Kanadaka', cursive;
+}
+img{
+    width: 300px;
+}
+.mistyrose-backgrount {
+    background-color: rgba(248, 231, 229, 0.562); 
+}
+.yellow-background{ 
+    background-color: oldlace;
+}
