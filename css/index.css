@@ -1,17 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Alata&family=Bodoni+Moda:ital@1&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
+
 h1{
-font-family: 'Seymour One', sans-serif;
-color:purple;
+    font-family: 'Gravitas One', cursive;
+    color:purple;
 }
 h2{
-font-family: 'Alata', sans-serif;
+    font-family: 'Rammetto One', cursive;
+    text-align: center; 
+    font-size: 3rem;
+    color: rgba(238, 151, 20, 0.986);
 }
-h3{
-font-family: 'Akaya Kanadaka', cursive;
+.banner p{
+    text-align: center;
+    color: rgba(11, 190, 245, 0.925);
 }
-:root{ 
-    font-family: 'Bodoni Moda', serif;
+.button {
+    padding: 0.35em 1.2em;
+    border: 1px solid #f3841c;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2px;
+    color: #fcfaf8;
+    text-align: center;
+    transition: color 0.7s;
+    background-color:orange;
+    
+  }
+:root{
+    font-family: 'Merriweather', serif;
 }
+header .banner {
+    background-image: url(../img/holiday.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
 img{
     width: 300px;
 }
