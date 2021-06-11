@@ -3,31 +3,43 @@
 h1{
     font-family: 'Gravitas One', cursive;
     color:purple;
+    font-size: 2rem;
 }
-h2{
-    font-family: 'Rammetto One', cursive;
-    text-align: center; 
-    font-size: 3rem;
-    color: rgba(238, 151, 20, 0.986);
-}
-.banner p{
-    text-align: center;
-    color: rgba(11, 190, 245, 0.925);
-}
-.button {
-    padding: 0.35em 1.2em;
-    border: 1px solid #f3841c;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 2px;
-    color: #fcfaf8;
-    text-align: center;
-    transition: color 0.7s;
-    background-color:orange;
-    
-  }
 :root{
     font-family: 'Merriweather', serif;
+    --main-color: black;
+    --menu-color:rgba(238, 151, 20, 0.986);
 }
+body{
+   max-width: 980px;
+    margin: auto;
+}
+.banner h2{
+    font-family: 'Rammetto One';
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--menu-color);
+    text-transform: uppercase;
+}
+header .menu a{
+    display: block;
+    color: var(--main-color);
+    text-decoration:none;
+} 
+header .menu a:hover{
+    color: var(--menu-color) ;
+}
+@media(min-width:500px){
+    header nav{
+        display: flex;
+    }
+}
+header .menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}    
 header .banner {
     background-image: url(../img/holiday.jpg);
     min-height: 400px;
@@ -36,16 +48,48 @@ header .banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-  }
-  
+    flex-direction: column;}
 
+
+    .button {
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #ffffff;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        transition: color 0.7s;
+        background-color: transparent;
+      }
+      
+      .button:hover {
+        color: #000000;
+        background-color: #ffffff;
+        cursor: pointer;
+      }
+      
+      .card-button {
+        border-color: black;
+        color: black;
+      }
+      
+      .card-button:hover {
+        background-color: black;
+        color: white;
+      }
 img{
     width: 300px;
-}
+}      
 .mistyrose-backgrount {
     background-color: rgba(248, 231, 229, 0.562); 
 }
 .yellow-background{ 
     background-color: oldlace;
 }
+.banner p{
+    text-align: center;
+    color: rgba(11, 190, 245, 0.925);
+}
+
+
