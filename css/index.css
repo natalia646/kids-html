@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
 
-h1{
-    font-family: 'Gravitas One', cursive;
-    color:purple;
-    font-size: 2rem;
+body{
+   max-width: 100%;
+   margin: auto;
 }
 :root{
-    font-family: 'Merriweather', serif;
+    font-family: serif;
     --main-color: black;
     --menu-color:rgba(238, 151, 20, 0.986);
+    --h1-color: purple;
+    
 }
-body{
-   max-width: 980px;
-    margin: auto;
+h1{
+    font-family: 'Gravitas One', cursive;
+    color: var(--h1-color);
+    font-size: 2rem;
 }
 .banner h2{
     font-family: 'Rammetto One';
@@ -29,23 +31,26 @@ header .menu a{
 header .menu a:hover{
     color: var(--menu-color) ;
 }
-@media(min-width:500px){
-    header nav{
-        display: flex;
-    }
-}
 header .menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex: 1;
-}    
-img{
-    width: 300px;
-}      
+}  
+@media(min-width:500px){
+    header nav{
+        display: flex;
+    }
+}
+   
 .mistyrose-backgrount {
     background-color: rgba(248, 231, 229, 0.562); 
+    
 }
+
+
+
+
 .yellow-background{ 
     background-color: oldlace;
 }
@@ -55,3 +60,6 @@ img{
 }
 
 
+img{
+    width: 300px;
+}
