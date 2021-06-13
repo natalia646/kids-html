@@ -7,17 +7,36 @@ body{
 :root{
     font-family: serif;
     --main-color: black;
-    --menu-color:rgba(238, 151, 20, 0.986);
+    --menu-color:rgb(255, 255, 255);
     --h1-color: purple;
+    --transparent: rgba(0, 0, 0, 0.6);
     
 }
 .container-fluid h1{
     font-family: 'Gravitas One', cursive;
     color: var(--h1-color);
     font-size: 2rem;
+    text-align: center;
 }
-
-
+.carousel-caption h2{
+    font-family: 'Rammetto One';
+    font-size: 3rem;
+    text-align: center;
+    color: var(--menu-color);
+    text-transform: uppercase;
+    
+}
+.carousel-caption p{
+    color: var(--menu-color);
+}
+.carousel-caption button{
+    margin-bottom: 20rem;
+}
+@media(min-width: 850px;) {
+    .carousel-caption h2{
+        font-size: 1.1rem;
+    }
+}
 
 
 
