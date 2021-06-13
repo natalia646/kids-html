@@ -57,15 +57,15 @@ body{
 }
 #contacts {
     margin-top: 4rem;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-family: 'Gravitas One', cursive;
     font-size: 1.5rem;
     text-align: center; 
     color: var(--mistyrose-color);  
 }
-#book-online{
+#book-online about-us{
     margin-top: 4rem;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-family: 'Gravitas One', cursive;
     font-size: 1.5rem;
     text-align: center; 
@@ -81,20 +81,34 @@ body{
     height: 196px;
     margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-img{
-    width: 300px;
+.about-us{
+    display: flex;
+    margin-top: 4rem;
+    
+    
 }
+#about-us{
+    font-family: 'Gravitas One', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--mistyrose-color);
+}
+
+.bestsellers{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.img-bestsellers{
+    width: 382px;
+}   
+
+
+
+
+
+
+
+
+
+
