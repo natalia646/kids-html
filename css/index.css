@@ -11,53 +11,32 @@ body{
     --h1-color: purple;
     
 }
-h1{
+.container-fluid h1{
     font-family: 'Gravitas One', cursive;
     color: var(--h1-color);
     font-size: 2rem;
 }
-.banner h2{
-    font-family: 'Rammetto One';
-    font-size: 3.5rem;
-    text-align: center;
-    color: var(--menu-color);
-    text-transform: uppercase;
-}
-header .menu a{
-    display: block;
-    color: var(--main-color);
-    text-decoration:none;
-} 
-header .menu a:hover{
-    color: var(--menu-color) ;
-}
-header .menu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1;
-}  
-@media(min-width:500px){
-    header nav{
-        display: flex;
-    }
-}
-   
-.mistyrose-backgrount {
-    background-color: rgba(248, 231, 229, 0.562); 
-    
-}
 
 
 
 
-.yellow-background{ 
-    background-color: oldlace;
-}
-.banner p{
-    text-align: center;
-    color: rgba(11, 190, 245, 0.925);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 img{
