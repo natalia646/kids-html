@@ -63,3 +63,9 @@ header .menu{
 img{
     width: 300px;
 }
+@media(min-width:){
+    main .about-us{
+        display: block;
+        font-size: 1rem;
+    }
+}

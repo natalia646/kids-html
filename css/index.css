@@ -82,11 +82,14 @@ body{
     margin: auto;
 }
 .about-us{
-    display: flex;
+    display: block;
     margin-top: 4rem;
-    
-    
+    font-size: 1rem;
 }
+.about-us p{
+    font-size: 0.8rem;
+
+ }   
 #about-us{
     font-family: 'Gravitas One', cursive;
     font-size: 1.5rem;
@@ -102,9 +105,12 @@ body{
 .img-bestsellers{
     width: 382px;
 }   
-
-
-
+@media(min-width: :600px){
+    main .about-us{
+        display: flex;
+        font-size: 1.5rem;
+    }
+}
 
 
 
