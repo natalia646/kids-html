@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
+
+body{
+   max-width: 100%;
+   margin: auto;
+}
+:root{
+    font-family: 'Gravitas One', cursive;
+    --main-color: black;
+    --menu-color:rgb(255, 255, 255);
+    --h1-color: purple;
+    --transparent: rgba(0, 0, 0, 0.6);
+    --mistyrose-color: rgb(226, 134, 35);
+    
+}
+.container-fluid h1{
+    font-family: 'Gravitas One', cursive;
+    color: var(--h1-color);
+    font-size: 2rem;
+    text-align: center;
+}
+.carousel-caption h2{
+    font-family: 'Rammetto One';
+    font-size: 3rem;
+    text-align: center;
+    color: var(--menu-color);
+    text-transform: uppercase;
+    
+}
+.carousel-caption p{
+    color: var(--menu-color);
+}
+.carousel-caption button{
+   margin-bottom: 20rem;
+}
+ #party-themes{
+     margin-top: 4rem;
+     margin-top: 3rem;
+     font-family: 'Gravitas One', cursive;
+     font-size: 2rem;
+     text-align: center; 
+     color: var(--mistyrose-color);  
+ }
+.card-text {
+    color: var(--mistyrose-color);  
+}
+.mini-text{
+    font-size: 0.7rem;
+}
+#faq {
+    margin-top: 4rem;
+     margin-top: 3rem;
+     font-family: 'Gravitas One', cursive;
+     font-size: 1.5rem;
+     text-align: center; 
+     color: var(--mistyrose-color);  
+}
+#contacts {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-family: 'Gravitas One', cursive;
+    font-size: 1.5rem;
+    text-align: center; 
+    color: var(--mistyrose-color);  
+}
+#book-online about-us{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-family: 'Gravitas One', cursive;
+    font-size: 1.5rem;
+    text-align: center; 
+    color: var(--mistyrose-color);  
+}
+.card-img-top-contacts{
+    width: 244px;
+    height: 162px;
+    margin: auto;
+}
+.card-img-top{
+    width: 274px;
+    height: 196px;
+    margin: auto;
+}
+.about-us{
+    margin-top: 4rem;
+    font-size: 1rem;
+}
+.about-us p{
+    font-size: 0.8rem;
+
+ }   
+#about-us{
+    font-family: 'Gravitas One', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--mistyrose-color);
+}
+
+.bestsellers{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.img-bestsellers{
+    width: 382px;
+}   
+@media(min-width: :600px){
+    main .about-us{
+        display: flex;
+        font-size: 1.5rem;
+    }
+}
+
+
+
