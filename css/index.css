@@ -104,12 +104,32 @@ body{
 .img-bestsellers{
     width: 382px;
 }   
-@media(min-width: :600px){
+@media(min-width: 900px){
     main .about-us{
         display: flex;
         font-size: 1.5rem;
     }
 }
+
+@media(min-width: 600px){
+}
+
+
+@media(min-width: 600px){
+    #home .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+    }
+    .date{
+        margin: auto;
+        color: var(--h1-color);
+    }
+    .clock{
+        margin: auto;
+        color: var(--h1-color);   
+    }    
+} 
 
 
 
