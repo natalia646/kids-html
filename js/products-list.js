@@ -7,7 +7,7 @@ const productsJson = `
     "briefDescription": "Choose a theme, and we will create a perfect private party!",
     "description": "Birthdays happen only once a year, hence they should be epic. Our event managers keep track of the latest tendencies.",
     "imgUrl": "img/hats.jpg",
-    "nameImg": ""Hats
+    "nameImg": "Hats"
 },
 {
     "id": "2",
@@ -48,7 +48,7 @@ function renderProducts(products){
             <h4>${product.title}</h4>
             <p class="card-text">${product.age}</p>
             <p>${product.briefDescription}</p>
-            <p class="mini-text">${product.Description}</p>
+            <p class="mini-text">${product.description}</p>
         </div>
     </div> `;
     }
