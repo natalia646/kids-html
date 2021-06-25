@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
 
 body{
-   max-width: 100%;
-   margin: auto;
+    max-width: 100%;
+    margin: auto;
+    background-color: var(--fon-color);
 }
 :root{
     font-family: 'Gravitas One', cursive;
@@ -11,6 +12,7 @@ body{
     --h1-color: purple;
     --transparent: rgba(0, 0, 0, 0.6);
     --mistyrose-color: rgb(226, 134, 35);
+    --fon-color: rgba(250, 249, 239, 0.822) ;
     
 }
 .container-fluid h1{
@@ -18,6 +20,7 @@ body{
     color: var(--h1-color);
     font-size: 2rem;
     text-align: center;
+    
 }
 .carousel-caption h2{
     font-family: 'Rammetto One';
@@ -86,7 +89,7 @@ body{
     font-size: 1rem;
 }
 .about-us p{
-    font-size: 0.8rem;
+    font-size: 1rem;
 
  }   
 #about-us{
@@ -104,7 +107,7 @@ body{
 .img-bestsellers{
     width: 382px;
 }   
-@media(min-width: 900px){
+@media(min-width: 1000px){
     main .about-us{
         display: flex;
         font-size: 1.5rem;
@@ -130,6 +133,8 @@ body{
         color: var(--h1-color);   
     }    
 } 
-
+.party-themes{
+    background-color: var(--fon-color);
+}
 
 
