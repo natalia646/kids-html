@@ -8,23 +8,3 @@ const dateContainer = document.querySelector('.date');
 dateContainer.innerHTML = new Date().toLocaleDateString() ;
 
 
-
-
-
-// Self-destruct
-// const delaySecs = 10;
-// const startTime = new Date();
-
-// function updateSelfDestruct() {
-//     const selfDestructContainer = document.querySelector('.self-destruct');
-//     const currentTime = new Date();
-//     const elapsedTimeSecs = Math.round((currentTime - startTime) / 1000);
-//     const leftSecs = delaySecs - elapsedTimeSecs;
-//     selfDestructContainer.innerText = leftSecs;
-//     if (leftSecs < 1) {
-//         document.querySelector('body').innerHTML = '';
-//     }
-// }
-
-// setInterval(updateSelfDestruct, 1000);
-
