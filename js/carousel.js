@@ -1,22 +1,22 @@
-const image = [
-    "img/bubbles.jpg", 
-    "img/pie.jpg", 
-    "img/girl.jpg", 
-    "img/bear.jpg", 
-    "img/candles.jpg", 
-    "img/hearts.jpg" 
-]
+const images = [
+    'img/bubbles.jpg', 
+    'img/pie.jpg', 
+    'img/girl.jpg', 
+    'img/bear.jpg', 
+    'img/candles.jpg', 
+    'img/hearts.jpg',
+];
 
 let currentSlide = 0;
 
 function showCurrentSlide() {
-    const imageContainer = document.querySelector('galleru-carousel .galleru-image');
-    imageContainer.src = image[currentSlide];
+    const imageContainer = document.querySelector('.gallery-carousel .gallery-image');
+    imageContainer.src = images[currentSlide];
 }
 
 function next(){
     currentSlide++;
-    if (currentSlide > imagec.length - 1) currentSlide = 0;
+    if (currentSlide > images.length - 1) currentSlide = 0;
     showCurrentSlide();
 }
 setInterval(next, 2000);
