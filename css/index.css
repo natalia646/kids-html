@@ -75,10 +75,13 @@ h2{
 }
 .gallery-carousel .gallery-image{
     display: block;
-    width: 70%;
+    width: 80%;
     margin: auto;
     border-radius: 10%;
 }
+/* .accordion-button{
+    background-color: var(--fon-color);
+} */
 
 @media(min-width: 1000px){
     main .about-us{

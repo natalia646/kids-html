@@ -1,8 +1,9 @@
 const images = [
+    'img/happy.jpg',
+    'img/bear.jpg', 
     'img/bubbles.jpg', 
     'img/pie.jpg', 
     'img/girl.jpg', 
-    'img/bear.jpg', 
     'img/candles.jpg', 
     'img/hearts.jpg',
 ];
