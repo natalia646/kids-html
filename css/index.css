@@ -13,6 +13,7 @@ body{
     --h1-color: purple;
     --mistyrose-color: rgb(226, 134, 35);
     --fon-color: rgba(247, 240, 235, 0.966);
+    --p-color:rgba(250, 237, 220, 0.897);
 }
 img{
     width: 100%
@@ -22,8 +23,9 @@ h2{
     color: var(--mistyrose-color);
     text-align: center; 
     font-size: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 .container-fluid h1{
     font-family: 'Gravitas One', cursive;
@@ -44,14 +46,10 @@ h2{
 .carousel-caption button{
    margin-bottom: 20rem;
 }
-.about{
-    background-color: var(--fon-color);
-}
- .about-us-text{
-     padding: 20px;
- }
  .about-us p{
      font-size: 1rem;
+     background-color: var(--p-color);
+     padding-right: 20px;
  }
 .card-text{
     color: var(--mistyrose-color);  
@@ -69,15 +67,25 @@ h2{
 .mini-text{
     font-size: 0.7rem;
 }
-.gallery-img{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.party-themes{
+    background-color: var(--fon-color );
+}
+.bestsellers-text{
+    background-color: var(--p-color);
+}
+.galleru-carousel .galleru-image{
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 20%;
 }
 
 @media(min-width: 1000px){
     main .about-us{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         font-size: 1.5rem;
+        margin-right: 50px;
     }
 }
 @media(min-width: 600px){
@@ -86,19 +94,24 @@ h2{
         justify-content: space-around;
         flex: 1;
     }
+
     .date{
         margin: auto;
         color: var(--h1-color);
     }
+
     .clock{
         margin: auto;
         color: var(--h1-color);   
-    }   
+    } 
+
      .bestsellers-article{
     display: grid;
     grid-template-columns: 1fr 1fr;
     }
+
     .bestsellers-text{
-    padding: 60px;
+    padding: 50px;
+    padding-bottom: 0px;
     }
 }
