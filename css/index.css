@@ -5,9 +5,7 @@ body{
     margin: auto; 
     background-image: url(../img/fon.jpg);
 } 
-/* .container{
-    background-color: var(--fon-color);
-} */
+
 :root{
     font-family: 'Gravitas One', cursive;
     font-size: 1.2rem;
@@ -15,7 +13,7 @@ body{
     --menu-color:rgb(255, 255, 255);
     --h1-color: purple;
     --mistyrose-color: rgb(226, 134, 35);
-    --fon-color: rgba(247, 240, 235, 0.966);
+    --fon-color: rgba(250, 239, 237, 0.966);
     --p-color:rgba(250, 237, 220, 0.897);
 }
 img{
@@ -49,11 +47,7 @@ h2{
 .carousel-caption button{
    margin-bottom: 20rem;
 }
- .about-us p{
-    font-size: 1rem;
-    background-color: var(--p-color);
-    padding-right: 20px;
- }
+
 .card-text{
     color: var(--mistyrose-color);  
 }
@@ -71,7 +65,7 @@ h2{
     font-size: 0.7rem;
 }
 .party-themes{
-    background-color: var(--fon-color );
+    background-color: var(--menu-color);
 }
 .bestsellers-text{
     background-color: var(--p-color);
@@ -84,14 +78,7 @@ h2{
 }
 
 
-@media(min-width: 1000px){
-    main .about-us{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        font-size: 1.5rem;
-        margin-right: 50px;
-    }
-}
+
 @media(min-width: 600px){
     #home .navbar-nav {
         display: flex;
@@ -117,5 +104,29 @@ h2{
     .bestsellers-text{
     padding: 50px;
     padding-bottom: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+.about{
+    background-color: var(--fon-color);
+    
+}
+.about-us img{
+    margin-top: 3rem;
+    border-radius: 5%;
+    
+}
+@media(min-width: 900px){
+    main .about-us{
+        display:  grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
+        grid-column-gap: 30px ;
     }
 }
