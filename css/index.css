@@ -64,9 +64,7 @@ h2{
 .mini-text{
     font-size: 0.7rem;
 }
-.party-themes{
-    background-color: var(--menu-color);
-}
+
 .bestsellers-text{
     background-color: var(--p-color);
 }
@@ -114,6 +112,16 @@ h2{
 
 
 
+
+
+
+
+.products{
+    margin: auto;
+}
+.party-themes{
+    background-color: var(--menu-color);
+}
 .about{
     background-color: var(--fon-color);
     
