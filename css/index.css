@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
 
 body{
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: auto; 
     background-image: url(../img/fon.jpg);
-} 
 
+} 
 :root{
     font-family: 'Gravitas One', cursive;
-    font-size: 1.2rem;
+    font-size: 1rem;
     --main-color: black;
     --menu-color:rgb(255, 255, 255);
     --h1-color: purple;
@@ -23,30 +23,50 @@ h2{
     font-family: 'Gravitas One', cursive;
     color: var(--mistyrose-color);
     text-align: center; 
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 .container-fluid h1{
     font-family: 'Gravitas One', cursive;
     color: var(--h1-color);
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
 }
 .carousel-caption h2{
     font-family: 'Rammetto One';
-    font-size: 3rem;
+    font-size: 2.6rem;
     text-align: center;
     color: var(--menu-color);
     text-transform: uppercase;
 }
 .carousel-caption p{
     color: var(--menu-color);
+    font-size: 1.2rem;
 }
 .carousel-caption button{
    margin-bottom: 20rem;
+   background-color: var(--mistyrose-color);
+   border-radius: 1rem;
 }
+.about{
+    background-color: var(--fon-color); 
+}
+.about-us img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+}
+.bestsellers-text{
+    background-color: var(--fon-color);
+}
+
+
+
+
+
+
 
 .card-text{
     color: var(--mistyrose-color);  
@@ -64,12 +84,10 @@ h2{
 .mini-text{
     font-size: 0.7rem;
 }
-.bestsellers-text{
-    background-color: var(--fon-color);
-}
+
 .gallery-carousel .gallery-image{
     display: block;
-    width: 80%;
+    width: 60%;
     margin: auto;
     border-radius: 10%;
 }
@@ -79,15 +97,7 @@ h2{
 .party-themes{
     background-color: var(--menu-color);
 }
-.about{
-    background-color: var(--fon-color);
-    
-}
-.about-us img{
-    margin-top: 3rem;
-    border-radius: 5%;
-    
-}
+
 .faq{
     background-color: var(--fon-color);
     
@@ -136,6 +146,7 @@ input{
 .boton-submit{
     background-color: var(--mistyrose-color);
 }
+
 @media(min-width: 600px){
     #home .navbar-nav {
         display: flex;
@@ -150,17 +161,19 @@ input{
         margin: auto;
         color: var(--h1-color);   
     } 
-
+    .bestsellers{
+       background-color: var(--fon-color);
+    }
      .bestsellers-article{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        justify-items: center;
+        width: 70%;
     }
-
     .bestsellers-text{
-        padding: 50px;
+        padding: 20px;
         padding-bottom: 0px;
     }
-
     .contacts{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
