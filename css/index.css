@@ -64,7 +64,6 @@ h2{
 .mini-text{
     font-size: 0.7rem;
 }
-
 .bestsellers-text{
     background-color: var(--fon-color);
 }
@@ -74,48 +73,6 @@ h2{
     margin: auto;
     border-radius: 10%;
 }
-
-
-
-@media(min-width: 600px){
-    #home .navbar-nav {
-        display: flex;
-        justify-content: space-around;
-        flex: 1;
-    }
-
-    .date{
-        margin: auto;
-        color: var(--h1-color);
-    }
-
-    .clock{
-        margin: auto;
-        color: var(--h1-color);   
-    } 
-
-     .bestsellers-article{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
-
-    .bestsellers-text{
-    padding: 50px;
-    padding-bottom: 0px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 .products{
     margin: auto;
 }
@@ -130,6 +87,93 @@ h2{
     margin-top: 3rem;
     border-radius: 5%;
     
+}
+.faq{
+    background-color: var(--fon-color);
+    
+}
+.adres img{
+    width: 100%;
+    border-radius: 10%;
+}
+.adres p{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.city{
+    font-weight: 2rem;
+}
+.book-online{
+    background-image: url(../img/book-online.jpg);
+    background-size: cover;
+}
+.form{
+    width: 30rem;
+    height: 40rem;
+    background-color: var(--fon-color);
+    border-radius: 10%;
+    display: grid;
+    justify-items: center;
+    margin-top: 2rem;
+}
+label{
+    margin-top: 1rem;
+    text-align: center;
+}
+input{
+    border-radius: 4rem;
+    background-color: var(--p-color);
+    width: 20rem;
+    height: 4rem;
+    text-align: center;
+}
+.sms{
+    height: 8rem;
+    margin-bottom: 5rem;
+}
+.boton-submit{
+    background-color: var(--mistyrose-color);
+}
+@media(min-width: 600px){
+    #home .navbar-nav {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+    }
+    .date{
+        margin: auto;
+        color: var(--h1-color);
+    }
+    .clock{
+        margin: auto;
+        color: var(--h1-color);   
+    } 
+
+     .bestsellers-article{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    }
+
+    .bestsellers-text{
+        padding: 50px;
+        padding-bottom: 0px;
+    }
+
+    .contacts{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        grid-column-gap: 5% ;
+    }
+    .book{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
+        grid-column-gap: 5% ;
+    }
+    .book p{
+        font-size: 1.3rem;
+    }
 }
 @media(min-width: 900px){
     main .about-us{
