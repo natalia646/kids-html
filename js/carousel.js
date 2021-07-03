@@ -20,6 +20,6 @@ function next(){
     if (currentSlide > images.length - 1) currentSlide = 0;
     showCurrentSlide();
 }
-setInterval(next, 2000);
+setInterval(next, 4000);
 
 showCurrentSlide();
