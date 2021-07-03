@@ -1,9 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
 
+
+img{
+    width: 100%;
+}
 body{
     margin: auto; 
     background-image: url(../img/fon.jpg);
-
 } 
 :root{
     font-family: 'Gravitas One', cursive;
@@ -15,11 +18,20 @@ body{
     --fon-color: rgba(250, 239, 237, 0.966);
     --p-color:rgba(250, 237, 220, 0.897);
 }
+header{
+    background-image: url(../img/kiddie-parties.jpg);
+    background-position: center;
+    background-size: cover ;
+}
 .navbar{
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
-img{
-    width: 100%
+h1{
+    font-family: 'Gravitas One', cursive;
+    color: var(--h1-color);
+    font-size: 1.6rem;
+    text-align: left;
+    margin: auto;
 }
 h2{
     font-family: 'Gravitas One', cursive;
@@ -30,9 +42,32 @@ h2{
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
+.banner h2{
+    font-family: 'Rammetto One';
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--menu-color);
+    text-transform: uppercase;
+    margin-top: 16rem;
+}
+.banner p{
+    color: var(--menu-color);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.banner button{
+    border-radius: 1rem;
+    border-color: var(--mistyrose-color);
+    background-color: var(--mistyrose-color);
+    color:var(--menu-color);
+    margin-bottom: 3rem;
+    font-size: 0.6rem; 
+    margin-left: 45%;
+}
 .about{
     background-color: var(--fon-color);
-    margin-top: -20px; 
+    margin-top: -30px; 
 }
 .about-us img{
     margin-top: 1rem;
@@ -147,12 +182,34 @@ input{
     }
 }
 @media(min-width: 600px){
- .bestsellers-article{
+    .banner h2{
+        font-family: 'Rammetto One';
+        font-size: 3rem;
+        text-align: center;
+        color: var(--menu-color);
+        text-transform: uppercase;
+        margin-top: 20rem;
+    }
+    .banner p{
+        color: var(--menu-color);
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .banner button{
+        background-color: var(--mistyrose-color);
+        border-radius: 1rem;
+        margin-bottom: 14rem;
+        font-size: 0.9rem;
+        
+    }
+    .bestsellers-article{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
         justify-items: center;
         width: 80%;
         margin-left: 10%;
+       
     }
     .bestsellers-text{
         padding: 20px;
@@ -168,48 +225,15 @@ input{
         grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
         grid-column-gap: 5% ;
     }
-  
-
-
-
-
-
-
-    .carousel-caption h2{
-        font-family: 'Rammetto One';
-        font-size: 2rem;
-        text-align: center;
-        color: var(--menu-color);
-        text-transform: uppercase;
-        padding: 0px;
-    }
-   .carousel-caption p{
-        color: var(--menu-color);
-        font-size: 1.2rem;
-    }
-    .carousel-caption button{
-       background-color: var(--mistyrose-color);
-       border-radius: 1rem;
-    }
-
-}
-
-
-header{
-    background-color: royalblue;
 }
 
 
 
 
-h1{
-  
-    font-family: 'Gravitas One', cursive;
-    color: var(--h1-color);
-    font-size: 1.6rem;
-    text-align: left;
-    margin: auto;
-}
+
+
+
+
 
 
 
