@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
 
 body{
-    /* max-width: 100%; */
     margin: auto; 
     background-image: url(../img/fon.jpg);
 
@@ -28,7 +27,154 @@ h2{
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-.container-fluid h1{
+.about{
+    background-color: var(--fon-color);
+    margin-top: -20px; 
+}
+.about-us img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+    /* align-items: center;
+    justify-content: center; */
+}
+@media(min-width: 1000px){
+    .about-us img{
+        margin-top: 3rem;
+    }
+    main .about-us{
+        display:  grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
+        grid-column-gap: 30px ;
+    }
+}
+.gallery-carousel .gallery-image{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 10%;
+}
+.products{
+    margin: auto;
+}
+.party-themes .card-text{
+    color: var(--mistyrose-color);  
+}
+.party-themes img{
+    margin-top: 1rem;
+}
+.party-themes .mini-text{
+    font-size: 0.7rem;
+}
+.bestsellers-text{
+    background-color: var(--fon-color);
+}
+.adres img{
+    width: 100%;
+    border-radius: 10%;
+}
+.adres p{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.city{
+    font-weight: 2rem;
+}
+.book-online{
+    background-image: url(../img/book-online.jpg);
+    background-size: cover;
+}
+.form{
+    width: 18rem;
+    height: 25rem;
+    margin-top: 1rem;
+    border-radius: 8%;
+    background-color: var(--fon-color);
+    display: grid;
+    justify-items: center;
+}
+label{
+    margin-top: 0.4rem;
+    text-align: center;
+}
+input{
+    border-radius: 2rem;
+    background-color: var(--p-color);
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+}
+.sms{
+    height: 5rem;
+    margin-bottom: 1.6rem;
+}
+.boton-submit{
+    background-color: var(--mistyrose-color);  
+}
+@media(min-width: 600px){
+ .bestsellers-article{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        justify-items: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .bestsellers-text{
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    .contacts{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        grid-column-gap: 5% ;
+    }
+    .book{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
+        grid-column-gap: 5% ;
+    }
+}   
+    @media(min-width: 510px){
+    .form{
+        width: 30rem;
+        height: 36rem;
+        margin-top: 2rem;
+    }
+    label{
+        margin-top: 1rem;
+    }
+    input{
+        border-radius: 4rem;
+        width: 25rem;
+        height: 4rem;
+    }
+    .sms{
+        height: 8rem;
+        margin-bottom: 5rem;
+    }
+    .boton-submit{
+        margin-bottom: 3rem;
+    }
+    .book p{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container-fluid h1{
     font-family: 'Gravitas One', cursive;
     color: var(--h1-color);
     font-size: 1.6rem;
@@ -49,112 +195,17 @@ h2{
    margin-bottom: 20rem;
    background-color: var(--mistyrose-color);
    border-radius: 1rem;
-}
-.about{
-    background-color: var(--fon-color); 
-}
-.about-us img{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 5%;
-}
-.bestsellers-text{
-    background-color: var(--fon-color);
-}
-.home-carousel .home-image{
-    margin: auto;
-}
+}*/
+
+
+/*
 
 
 
 
 
-
-.card-text{
-    color: var(--mistyrose-color);  
-}
-.card-img-top-contacts{
-    width: 244px;
-    height: 162px;
-    margin: auto;
-}
-.card-img-top{
-    width: 274px;
-    height: 196px;
-    margin: auto;
- }   
-.mini-text{
-    font-size: 0.7rem;
-}
-
-.gallery-carousel .gallery-image{
-    display: block;
-    width: 60%;
-    margin: auto;
-    border-radius: 10%;
-}
-.products{
-    margin: auto;
-}
-.party-themes{
-    background-color: var(--menu-color);
-}
-
-.faq{
-    background-color: var(--fon-color);
-    
-}
-.adres img{
-    width: 100%;
-    border-radius: 10%;
-}
-.adres p{
-    text-align: center;
-}
-h6{
-    text-align: center;
-}
-.city{
-    font-weight: 2rem;
-}
-.book-online{
-    background-image: url(../img/book-online.jpg);
-    background-size: cover;
-}
-.form{
-    width: 30rem;
-    height: 40rem;
-    background-color: var(--fon-color);
-    border-radius: 10%;
-    display: grid;
-    justify-items: center;
-    margin-top: 2rem;
-}
-label{
-    margin-top: 1rem;
-    text-align: center;
-}
-input{
-    border-radius: 4rem;
-    background-color: var(--p-color);
-    width: 20rem;
-    height: 4rem;
-    text-align: center;
-}
-.sms{
-    height: 8rem;
-    margin-bottom: 5rem;
-}
-.boton-submit{
-    background-color: var(--mistyrose-color);
-}
 
 @media(min-width: 600px){
-    #home .navbar-nav {
-        display: flex;
-        justify-content: space-around;
-        flex: 1;
-    }
     .date{
         margin: auto;
         color: var(--h1-color);
@@ -163,37 +214,9 @@ input{
         margin: auto;
         color: var(--h1-color);   
     } 
-    .bestsellers{
-       background-color: var(--fon-color);
-    }
-     .bestsellers-article{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-        justify-items: center;
-        width: 70%;
-    }
-    .bestsellers-text{
-        padding: 20px;
-        padding-bottom: 0px;
-    }
-    .contacts{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-        grid-column-gap: 5% ;
-    }
-    .book{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
-        grid-column-gap: 5% ;
-    }
-    .book p{
-        font-size: 1.3rem;
-    }
+
+    
+    
+    
 }
-@media(min-width: 900px){
-    main .about-us{
-        display:  grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
-        grid-column-gap: 30px ;
-    }
-}
+ */
